@@ -1,0 +1,8 @@
+-- Problem: <Revising the Select Query I>
+-- Platform: HackerRank (MySQL) | Difficulty: Easy
+-- Link: <https://www.hackerrank.com/challenges/revising-the-select-query/problem?isFullScreen=true>
+-- Concepts: SELECT , WHERE
+-- Approach: Selected cities with a specific amount of population and pertaining to a specific code.
+
+select * from city
+where population > 100000 and countrycode like 'USA'
